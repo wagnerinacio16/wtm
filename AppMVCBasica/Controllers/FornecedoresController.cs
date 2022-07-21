@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using AppMVCBasica.Data;
 using AppMVCBasica.Models;
 using Microsoft.AspNetCore.Authorization;
+using AppMVCBasica.Faker;
 
 namespace AppMVCBasica.Controllers
 {
@@ -51,18 +52,35 @@ namespace AppMVCBasica.Controllers
         public IActionResult Create()
         {
             return View();
-        }
+        } // GET: Fornecedores/Create
+        
 
         // POST: Fornecedores/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Create( Fornecedor fornecedor)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        fornecedor.Id = Guid.NewGuid();
+        //        _context.Add(fornecedor);
+        //        await _context.SaveChangesAsync();
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(fornecedor);
+        //}
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create( Fornecedor fornecedor)
+        public async Task<IActionResult> Create(Fornecedor fornecedor)
         {
+            FornecedorFaker fake = new FornecedorFaker();
             if (ModelState.IsValid)
             {
-                fornecedor.Id = Guid.NewGuid();
+                fornecedor = fake.dataFake(); 
+               // fornecedor.Id = Guid.NewGuid();
                 _context.Add(fornecedor);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

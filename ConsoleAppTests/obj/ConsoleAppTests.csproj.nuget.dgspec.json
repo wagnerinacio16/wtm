@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\ConsoleAppTests\\ConsoleAppTests.csproj": {}
+    "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\ConsoleAppTests\\ConsoleAppTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\AppMVCBasica\\AppMVCBasica.csproj": {
+    "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\AppMVCBasica\\AppMVCBasica.csproj",
+        "projectUniqueName": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj",
         "projectName": "AppMVCBasica",
-        "projectPath": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\AppMVCBasica\\AppMVCBasica.csproj",
-        "packagesPath": "C:\\Users\\Lydians\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\AppMVCBasica\\obj\\",
+        "projectPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj",
+        "packagesPath": "C:\\Users\\wagne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lydians\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,6 +45,12 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            },
+            "Bogus.Tools.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[34.0.2, )"
             },
@@ -97,24 +103,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\ConsoleAppTests\\ConsoleAppTests.csproj": {
+    "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\ConsoleAppTests\\ConsoleAppTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\ConsoleAppTests\\ConsoleAppTests.csproj",
+        "projectUniqueName": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\ConsoleAppTests\\ConsoleAppTests.csproj",
         "projectName": "ConsoleAppTests",
-        "projectPath": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\ConsoleAppTests\\ConsoleAppTests.csproj",
-        "packagesPath": "C:\\Users\\Lydians\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\ConsoleAppTests\\obj\\",
+        "projectPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\ConsoleAppTests\\ConsoleAppTests.csproj",
+        "packagesPath": "C:\\Users\\wagne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\ConsoleAppTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lydians\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -129,8 +135,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\AppMVCBasica\\AppMVCBasica.csproj": {
-                "projectPath": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\AppMVCBasica\\AppMVCBasica.csproj"
+              "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj": {
+                "projectPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj"
               }
             }
           }
@@ -144,6 +150,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Bogus.Tools.Analyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[34.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -159,7 +173,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

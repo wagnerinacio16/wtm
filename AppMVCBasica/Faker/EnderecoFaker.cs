@@ -7,7 +7,7 @@ namespace AppMVCBasica.Faker
     {
         public Endereco dataFake()
         {
-            var enderecoFake = new Faker<Endereco>("pt_BR")
+            var endereco = new Faker<Endereco>("pt_BR")
            
                 .RuleFor(x => x.Logradouro, f => f.Address.StreetName())
                 .RuleFor(x => x.Numero, f => f.Address.BuildingNumber())
@@ -17,7 +17,7 @@ namespace AppMVCBasica.Faker
                 .RuleFor(x => x.Cidade, f => f.Address.City())
                 .RuleFor(x => x.Estado, f => f.Address.StateAbbr());
           
-            return enderecoFake;
+            return endereco;
         }
     }
 }

@@ -6,7 +6,6 @@ namespace AppMVCBasica.Faker
 {
     public class ProdutoFaker : Faker<Produto>
     {
-
         public Produto dataFake()
         {
             var produtoFaker = new Faker<Produto>("pt_BR")

@@ -12,7 +12,7 @@ namespace ConsoleAppTests
             FornecedorFaker fornecedor = new FornecedorFaker();
             for (int i = 1; i <= 10; i++)
             {
-                Console.WriteLine(gerarDadosFake(produto.dataFake()));
+                Console.WriteLine(gerarDadosFake(fornecedor.dataFake()));
 
             }
         }

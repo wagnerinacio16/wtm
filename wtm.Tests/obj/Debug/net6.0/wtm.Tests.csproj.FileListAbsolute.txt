@@ -350,3 +350,12 @@ C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\obj\Debug\net
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\obj\Debug\net6.0\wtm.Tests.pdb
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\obj\Debug\net6.0\wtm.Tests.genruntimeconfig.cache
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\obj\Debug\net6.0\ref\wtm.Tests.dll
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\wtm.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\wtm.Tests\obj\Debug\net6.0\wtm.Tests.csproj.AssemblyReference.cache
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\wtm.Tests\obj\Debug\net6.0\wtm.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\wtm.Tests\obj\Debug\net6.0\wtm.Tests.AssemblyInfoInputs.cache
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\wtm.Tests\obj\Debug\net6.0\wtm.Tests.AssemblyInfo.cs
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\wtm.Tests\obj\Debug\net6.0\wtm.Tests.csproj.CoreCompileInputs.cache
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\wtm.Tests\obj\Debug\net6.0\wtm.Tests.dll
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\wtm.Tests\obj\Debug\net6.0\refint\wtm.Tests.dll
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\wtm.Tests\obj\Debug\net6.0\wtm.Tests.pdb

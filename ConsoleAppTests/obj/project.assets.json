@@ -11,6 +11,9 @@
           "lib/net6.0/Bogus.dll": {}
         }
       },
+      "Bogus.Tools.Analyzer/34.0.2": {
+        "type": "package"
+      },
       "Humanizer.Core/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -3292,6 +3295,21 @@
         "lib/netstandard1.3/Bogus.xml",
         "lib/netstandard2.0/Bogus.dll",
         "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
+    "Bogus.Tools.Analyzer/34.0.2": {
+      "sha512": "a/JYQfwORDKFdsC3SezzDpWQ/5Ei2VI8xLimo+qOD+J9pUinkUaVWJqjjNIWJhnojPDjMp0UrsOaUOpf9dz90w==",
+      "type": "package",
+      "path": "bogus.tools.analyzer/34.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/Bogus.Tools.Analyzer.dll",
+        "bogus.tools.analyzer.34.0.2.nupkg.sha512",
+        "bogus.tools.analyzer.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "Humanizer.Core/2.2.0": {
@@ -10041,27 +10059,28 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AppMVCBasica >= 1.0.0"
+      "AppMVCBasica >= 1.0.0",
+      "Bogus.Tools.Analyzer >= 34.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lydians\\.nuget\\packages\\": {},
+    "C:\\Users\\wagne\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\ConsoleAppTests\\ConsoleAppTests.csproj",
+      "projectUniqueName": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\ConsoleAppTests\\ConsoleAppTests.csproj",
       "projectName": "ConsoleAppTests",
-      "projectPath": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\ConsoleAppTests\\ConsoleAppTests.csproj",
-      "packagesPath": "C:\\Users\\Lydians\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\ConsoleAppTests\\obj\\",
+      "projectPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\ConsoleAppTests\\ConsoleAppTests.csproj",
+      "packagesPath": "C:\\Users\\wagne\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\ConsoleAppTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lydians\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10076,8 +10095,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\AppMVCBasica\\AppMVCBasica.csproj": {
-              "projectPath": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\AppMVCBasica\\AppMVCBasica.csproj"
+            "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj": {
+              "projectPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj"
             }
           }
         }
@@ -10091,6 +10110,14 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Bogus.Tools.Analyzer": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[34.0.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -10106,7 +10133,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

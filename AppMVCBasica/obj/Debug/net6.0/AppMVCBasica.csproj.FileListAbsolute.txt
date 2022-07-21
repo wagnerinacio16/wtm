@@ -823,3 +823,4 @@ C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.pdb
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.genruntimeconfig.cache
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\ref\AppMVCBasica.dll
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\AppMVCBasica\bin\Debug\net6.0\Bogus.dll

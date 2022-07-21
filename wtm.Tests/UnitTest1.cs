@@ -11,7 +11,7 @@ namespace wtm.Tests
         {
 
             ProdutoFaker produto = new ProdutoFaker();
-            Console.Write(gerarDadosFake(produto.dataFaker()));
+            Console.Write(gerarDadosFake(produto.dataFake()));
         }
 
         public String gerarDadosFake(object objeto)
