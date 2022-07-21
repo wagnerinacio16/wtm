@@ -1,0 +1,232 @@
+TpTrace Verbose: 0 : 15416, 1, 2022/07/19, 23:15:13.452, 1147333313046, testhost.dll, Version: 16.11.0
+TpTrace Information: 0 : 15416, 1, 2022/07/19, 23:15:13.467, 1147333417941, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 63698],[--endpoint, 127.0.0.1:063698],[--role, client],[--parentprocessid, 20164],[--diag, C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\coverage-tool-output\diagnostics.host.22-07-19_23-15-13_02614_5.log],[--tracelevel, 4],[--datacollectionport, 63697],[--telemetryoptedin, false]
+TpTrace Information: 0 : 15416, 1, 2022/07/19, 23:15:13.471, 1147333453479, testhost.dll, Setting up debug trace listener.
+TpTrace Verbose: 0 : 15416, 1, 2022/07/19, 23:15:13.471, 1147333458382, testhost.dll, TestPlatformTraceListener.Setup: Replacing listener 0 with TestHostTraceListener.
+TpTrace Verbose: 0 : 15416, 1, 2022/07/19, 23:15:13.472, 1147333459279, testhost.dll, TestPlatformTraceListener.Setup: Added test platform trace listener.
+TpTrace Information: 0 : 15416, 1, 2022/07/19, 23:15:13.473, 1147333477279, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '20164'
+TpTrace Information: 0 : 15416, 1, 2022/07/19, 23:15:13.489, 1147333631248, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:063698'
+TpTrace Information: 0 : 15416, 1, 2022/07/19, 23:15:13.507, 1147333809468, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:063698
+TpTrace Information: 0 : 15416, 1, 2022/07/19, 23:15:13.524, 1147333979894, testhost.dll, DefaultEngineInvoker.ConnectToDatacollector: Connecting to datacollector, port: 63697
+TpTrace Information: 0 : 15416, 9, 2022/07/19, 23:15:13.530, 1147334044537, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:063698
+TpTrace Information: 0 : 15416, 1, 2022/07/19, 23:15:13.533, 1147334070279, testhost.dll, Trying to connect to server on socket : 127.0.0.1:63697 
+TpTrace Verbose: 0 : 15416, 9, 2022/07/19, 23:15:13.533, 1147334072151, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Verbose: 0 : 15416, 1, 2022/07/19, 23:15:13.533, 1147334075693, testhost.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 15416, 1, 2022/07/19, 23:15:13.534, 1147334088366, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 15416, 1, 2022/07/19, 23:15:13.535, 1147334089661, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 15416, 1, 2022/07/19, 23:15:13.536, 1147334099268, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Information: 0 : 15416, 13, 2022/07/19, 23:15:13.537, 1147334111312, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:13.539, 1147334130614, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:13.539, 1147334135055, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Information: 0 : 15416, 10, 2022/07/19, 23:15:13.760, 1147336343207, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (ProtocolVersion) -> 5
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:13.838, 1147337127292, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Registro em log do diagnóstico TestHost no arquivo: C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\wtm.Tests\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output\\diagnostics.host.22-07-19_23-15-13_02614_5.log"}}
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:13.839, 1147337130526, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:13.839, 1147337133417, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Information: 0 : 15416, 10, 2022/07/19, 23:15:13.852, 1147337261354, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestExecution.Initialize) -> [
+  "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\wtm.Tests\\bin\\Debug\\net6.0\\fine-code-coverage\\build-output\\xunit.runner.visualstudio.dotnetcore.testadapter.dll"
+]
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:13.866, 1147337407425, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:13.866, 1147337409175, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.867, 1147337414975, testhost.dll, TestRequestHandler.OnMessageReceived: Running job 'TestExecution.Initialize'.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.871, 1147337454025, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Information: 0 : 15416, 10, 2022/07/19, 23:15:13.873, 1147337470321, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\wtm.Tests\\bin\\Debug\\net6.0\\fine-code-coverage\\build-output\\wtm.Tests.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\wtm.Tests\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v6.0</TargetFrameworkVersion>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"blame\" enabled=\"True\" />\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\6.0.201\\vstest.console.dll\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n  <DataCollectionRunSettings>\r\n    <DataCollectors>\r\n      <DataCollector friendlyName=\"blame\" enabled=\"True\">\r\n        <Configuration>\r\n          <ResultsDirectory>C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\wtm.Tests\\bin\\Debug\\net6.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n        </Configuration>\r\n      </DataCollector>\r\n    </DataCollectors>\r\n  </DataCollectionRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.874, 1147337489053, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.877, 1147337513299, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.878, 1147337521807, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.878, 1147337523059, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.881, 1147337555808, testhost.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.884, 1147337580999, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.884, 1147337583908, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.884, 1147337584753, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.884, 1147337585591, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.884, 1147337586839, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.886, 1147337604554, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.898, 1147337727001, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.visualstudio.dotnetcore.testadapter: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.898, 1147337728845, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.visualstudio.dotnetcore.testadapter: Searching in: 'C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.912, 1147337868726, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.visualstudio.dotnetcore.testadapter: Loading assembly 'C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll'.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.914, 1147337880023, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.visualstudio.dotnetcore.testadapter, from path: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:13.933, 1147338077199, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.950, 1147338242579, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.utility.netcoreapp10: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.950, 1147338244145, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.utility.netcoreapp10: Searching in: 'C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.950, 1147338248934, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.utility.netcoreapp10: Loading assembly 'C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.utility.netcoreapp10.dll'.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.951, 1147338258005, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.utility.netcoreapp10, from path: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.utility.netcoreapp10.dll
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.964, 1147338382578, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.965, 1147338394995, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.965, 1147338396998, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.965, 1147338398671, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.966, 1147338400347, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.966, 1147338401275, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.972, 1147338459488, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation2 TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor2
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.972, 1147338468803, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.973, 1147338470296, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.973, 1147338471048, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.973, 1147338474479, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.973, 1147338475470, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.973, 1147338476116, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.973, 1147338476683, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.973, 1147338477250, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.973, 1147338477872, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.973, 1147338478707, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.974, 1147338485668, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.974, 1147338486743, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.974, 1147338487501, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.974, 1147338488701, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.975, 1147338489410, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.975, 1147338489971, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.983, 1147338574348, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.983, 1147338576906, testhost.dll, TestExecutorExtensionManager: Loading executor Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.983, 1147338577683, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.985, 1147338595564, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestSettingsProviderPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ISettingsProvider
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.985, 1147338597471, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.985, 1147338598259, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.985, 1147338598862, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.986, 1147338601252, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.986, 1147338602133, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.986, 1147338602783, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.986, 1147338603342, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.986, 1147338603902, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.986, 1147338604652, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.986, 1147338605496, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.987, 1147338610543, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.987, 1147338611410, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.987, 1147338612126, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.987, 1147338612703, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.987, 1147338613421, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.987, 1147338614003, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:13.990, 1147338641309, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.990, 1147338643325, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:13.994, 1147338681151, testhost.dll, TestRequestHandler.OnMessageReceived: Running job 'TestExecution.StartWithSources'.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:14.264, 1147341382977, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\wtm.Tests.dll
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.273, 1147341472543, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestDiscovererPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestDiscoverer
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.273, 1147341474806, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.273, 1147341475578, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.273, 1147341476177, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:14.273, 1147341478599, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.274, 1147341479428, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.274, 1147341480045, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.274, 1147341480616, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.274, 1147341481186, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.274, 1147341481853, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:14.274, 1147341482795, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.279, 1147341531571, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.279, 1147341534450, testhost.dll, TestPluginCache: Discoverers are 'Xunit.Runner.VisualStudio.VsTestRunner, xunit.runner.visualstudio.dotnetcore.testadapter, Version=2.4.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c'.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.279, 1147341535282, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.279, 1147341536996, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.279, 1147341537667, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.280, 1147341539436, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:14.303, 1147341769533, testhost.dll, PEReaderHelper.GetAssemblyType: Determined assemblyType:'Managed' for source: 'C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\wtm.Tests.dll'
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.317, 1147341918599, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://xunit/VsTestRunner2/netcoreapp
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:14.357, 1147342315035, testhost.dll, [xUnit.net 00:00:00.01] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 6.0.3)
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:14.357, 1147342317274, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.01] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 6.0.3)"}}
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:14.941, 1147348153586, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:15.944, 1147358182534, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:16.946, 1147368204501, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.725, 1147375991765, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build.Framework: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.725, 1147375993775, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build.Framework: Searching in: 'C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.725, 1147375996439, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build.Framework: Assembly path does not exist: 'C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\Microsoft.Build.Framework.dll', returning.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.725, 1147375998312, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build.Framework: Assembly path does not exist: 'C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\Microsoft.Build.Framework.exe', returning.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.726, 1147375999245, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build.Framework: Failed to load assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.728, 1147376022459, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.728, 1147376025605, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Searching in: 'C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.728, 1147376028104, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Assembly path does not exist: 'C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\Microsoft.Build.dll', returning.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.729, 1147376029959, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Assembly path does not exist: 'C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\Microsoft.Build.exe', returning.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.729, 1147376030710, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Failed to load assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.729, 1147376036655, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.729, 1147376038029, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.730, 1147376042167, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.730, 1147376043070, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.730, 1147376045996, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.730, 1147376046782, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.731, 1147376049550, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.731, 1147376050305, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.731, 1147376053524, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:17.731, 1147376054312, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:17.949, 1147378235517, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:18.958, 1147388324982, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.468, 1147393424047, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build.Framework: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.468, 1147393425855, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build.Framework: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.469, 1147393429336, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.469, 1147393430124, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.469, 1147393432564, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.469, 1147393436010, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.470, 1147393438821, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.470, 1147393439544, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.470, 1147393441943, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.470, 1147393442633, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.470, 1147393444803, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.470, 1147393445546, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.470, 1147393447758, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.470, 1147393448426, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.479, 1147393532771, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.reporters.netcoreapp10: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.479, 1147393534617, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.reporters.netcoreapp10: Searching in: 'C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output'.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.480, 1147393540055, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.reporters.netcoreapp10: Loading assembly 'C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.reporters.netcoreapp10.dll'.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.482, 1147393560439, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.reporters.netcoreapp10, from path: C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\xunit.runner.reporters.netcoreapp10.dll
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.564, 1147394379228, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build.Framework: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.564, 1147394380871, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build.Framework: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.564, 1147394384484, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.564, 1147394385229, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.564, 1147394387499, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.564, 1147394388164, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.565, 1147394390409, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.565, 1147394391082, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.565, 1147394393515, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.565, 1147394394182, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.565, 1147394396394, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.565, 1147394397119, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.566, 1147394399223, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.566, 1147394399864, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.608, 1147394826692, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build.Framework: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.608, 1147394827909, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build.Framework: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.609, 1147394830134, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.609, 1147394830629, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.609, 1147394832180, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.609, 1147394832673, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.609, 1147394834177, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.609, 1147394834636, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.609, 1147394835939, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.609, 1147394836377, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.609, 1147394837639, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.609, 1147394838070, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.610, 1147394839311, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolving assembly.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.610, 1147394839742, testhost.dll, AssemblyResolver.OnResolve: Microsoft.Build: Resolved from cache.
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.675, 1147395490802, testhost.dll, [xUnit.net 00:00:05.35]   Discovering: wtm.Tests
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:19.675, 1147395492861, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:05.35]   Discovering: wtm.Tests"}}
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.700, 1147395745127, testhost.dll, [xUnit.net 00:00:05.37]   Discovered:  wtm.Tests
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:19.700, 1147395747707, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:05.37]   Discovered:  wtm.Tests"}}
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:19.707, 1147395813908, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Completed running tests for executor://xunit/VsTestRunner2/netcoreapp
+TpTrace Warning: 0 : 15416, 4, 2022/07/19, 23:15:19.708, 1147395825774, testhost.dll, Não há nenhum teste disponível em C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\wtm.Tests\bin\Debug\net6.0\fine-code-coverage\build-output\wtm.Tests.dll. Verifique se o detector e os executores de teste estão registrados e se as configurações de versão da estrutura da plataforma & são apropriadas e tente novamente.
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:19.708, 1147395827377, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":1,"Message":"Não há nenhum teste disponível em C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\wtm.Tests\\bin\\Debug\\net6.0\\fine-code-coverage\\build-output\\wtm.Tests.dll. Verifique se o detector e os executores de teste estão registrados e se as configurações de versão da estrutura da plataforma & são apropriadas e tente novamente."}}
+TpTrace Information: 0 : 15416, 4, 2022/07/19, 23:15:19.716, 1147395900464, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:19.754, 1147396287912, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":0,"Stats":{}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:05.4013926","Metrics":{}},"LastRunTests":{"NewTestResults":[],"TestRunStatistics":{"ExecutedTests":0,"Stats":{}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":[]}}
+TpTrace Verbose: 0 : 15416, 4, 2022/07/19, 23:15:19.755, 1147396292817, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:19.755, 1147396294778, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Information: 0 : 15416, 10, 2022/07/19, 23:15:19.755, 1147396297508, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 15416, 10, 2022/07/19, 23:15:19.755, 1147396298275, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 15416, 10, 2022/07/19, 23:15:19.756, 1147396302437, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:063698
+TpTrace Information: 0 : 15416, 10, 2022/07/19, 23:15:19.756, 1147396303069, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:19.756, 1147396304921, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 15416, 10, 2022/07/19, 23:15:19.756, 1147396305558, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 15416, 10, 2022/07/19, 23:15:19.756, 1147396307763, testhost.dll, SocketClient.PrivateStop: Stop communication from server endpoint: 127.0.0.1:063698, error:
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:19.757, 1147396315643, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 15416, 1, 2022/07/19, 23:15:19.757, 1147396315617, testhost.dll, Closing the connection !
+TpTrace Verbose: 0 : 15416, 10, 2022/07/19, 23:15:19.757, 1147396317158, testhost.dll, TcpClientExtensions.MessageLoopAsync: exiting MessageLoopAsync remoteEndPoint: [::ffff:127.0.0.1]:63698 localEndPoint: [::ffff:127.0.0.1]:63699
+TpTrace Information: 0 : 15416, 1, 2022/07/19, 23:15:19.757, 1147396318269, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:063698
+TpTrace Verbose: 0 : 15416, 1, 2022/07/19, 23:15:19.758, 1147396319612, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 15416, 1, 2022/07/19, 23:15:19.758, 1147396321185, testhost.dll, Testhost process exiting.
