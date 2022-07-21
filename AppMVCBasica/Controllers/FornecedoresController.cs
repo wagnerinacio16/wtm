@@ -79,8 +79,8 @@ namespace AppMVCBasica.Controllers
             FornecedorFaker fake = new FornecedorFaker();
             if (ModelState.IsValid)
             {
+                fornecedor.Id = Guid.NewGuid();
                 fornecedor = fake.dataFake(); 
-               // fornecedor.Id = Guid.NewGuid();
                 _context.Add(fornecedor);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

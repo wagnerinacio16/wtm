@@ -548,15 +548,7 @@ C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\AppMVCBasi
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.pdb
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.genruntimeconfig.cache
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\AppMVCBasica\obj\Debug\net6.0\ref\AppMVCBasica.dll
-C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.csproj.AssemblyReference.cache
-C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.AssemblyInfoInputs.cache
-C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.AssemblyInfo.cs
-C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.csproj.CoreCompileInputs.cache
-C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.RazorAssemblyInfo.cache
-C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.RazorAssemblyInfo.cs
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\AppMVCBasica\bin\Debug\net6.0\Bogus.dll
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\bin\Debug\net6.0\appsettings.json
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\bin\Debug\net6.0\AppMVCBasica.staticwebassets.runtime.json
@@ -812,6 +804,15 @@ C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\bin\Debug\
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.csproj.AssemblyReference.cache
+C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.AssemblyInfoInputs.cache
+C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.AssemblyInfo.cs
+C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.csproj.CoreCompileInputs.cache
+C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.RazorAssemblyInfo.cache
+C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.RazorAssemblyInfo.cs
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
@@ -823,4 +824,3 @@ C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.pdb
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\AppMVCBasica.genruntimeconfig.cache
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\AppMVCBasica\obj\Debug\net6.0\ref\AppMVCBasica.dll
-C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\AppMVCBasica\bin\Debug\net6.0\Bogus.dll

@@ -9,6 +9,7 @@
       "wtm.Tests/1.0.0": {
         "dependencies": {
           "AppMVCBasica": "1.0.0",
+          "Bogus.Tools.Analyzer": "34.0.2",
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "coverlet.collector": "3.1.0",
           "xunit": "2.4.1",
@@ -26,6 +27,7 @@
           }
         }
       },
+      "Bogus.Tools.Analyzer/34.0.2": {},
       "coverlet.collector/3.1.0": {},
       "Humanizer.Core/2.2.0": {
         "dependencies": {
@@ -2695,6 +2697,13 @@
       "sha512": "sha512-2KQAuMn3fLAQ2r6jeiffZnpv0bi3GCW3iRB2v1KeHIEBu8MNTh9dBlLTZwGvM0pr+9doKkU8L5JgCURmTmT88A==",
       "path": "bogus/34.0.2",
       "hashPath": "bogus.34.0.2.nupkg.sha512"
+    },
+    "Bogus.Tools.Analyzer/34.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a/JYQfwORDKFdsC3SezzDpWQ/5Ei2VI8xLimo+qOD+J9pUinkUaVWJqjjNIWJhnojPDjMp0UrsOaUOpf9dz90w==",
+      "path": "bogus.tools.analyzer/34.0.2",
+      "hashPath": "bogus.tools.analyzer.34.0.2.nupkg.sha512"
     },
     "coverlet.collector/3.1.0": {
       "type": "package",
