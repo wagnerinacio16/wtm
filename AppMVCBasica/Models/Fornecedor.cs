@@ -1,4 +1,6 @@
-﻿using System.ComponentModel;
+﻿using AppMVCBasica.Data;
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace AppMVCBasica.Models
@@ -9,7 +11,11 @@ namespace AppMVCBasica.Models
         public string Nome { get; set; }
 
         public string Documento { get; set; }
+      
+        [DisplayName("Tipo Forneçedor")]
         public TipoFornecedor TipoFornecedor { get; set; }
+      
+        [DisplayName("Endereço")]
         public Endereco Endereco { get; set; }
 
         [DisplayName("Ativo?")]
@@ -18,7 +24,10 @@ namespace AppMVCBasica.Models
         /*EF Relation*/
         public IEnumerable<Produto> Produtos { get; set; }
 
+        public static implicit operator int(Fornecedor v)
+        {
+            throw new NotImplementedException();
+        }
     }
-
 }
 

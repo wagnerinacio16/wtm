@@ -9,7 +9,7 @@
 <h4>Fornecedor</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-12">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -40,16 +40,21 @@
 
 
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <br />
+                <input type="submit" value="Cem Cadastro(s)" class="btn btn-primary" asp-action="CreateCem" />
+                <input type="submit" value="Mil Cadastro(s)" class="btn btn-secondary" asp-action="CreateMil" />
+                <input type="submit" value="Dez mil Cadastro(s)" class="btn btn-success" asp-action="CreateDezMil" />
+                <input type="submit" value="Cem mil Cadastro(s)" class="btn btn-warning" asp-action="CreateCemMil"/>
+                <input type="submit" value="1 milhão de Cadastro(s)" class="btn btn-danger" asp-action="CreateUmMilhao"/>
             </div>
+
         </form>
     </div>
 </div>
-
 <div>
-    <a class="btn btn-sucess" asp-controller="Fornecedores" asp-action="Create"> CreateFake</a>
+<br />
 
-    <a class="btn btn-secondary" asp-action="Index">Voltar a lista </a>
+    <a class="btn btn-info" asp-action="Index">Voltar </a>
 </div>
 
 @section Scripts {

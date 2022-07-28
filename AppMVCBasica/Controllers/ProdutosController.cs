@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using AppMVCBasica.Data;
 using AppMVCBasica.Models;
 using Microsoft.AspNetCore.Authorization;
+using AppMVCBasica.Faker;
 
 namespace AppMVCBasica.Controllers
 {
@@ -15,10 +16,15 @@ namespace AppMVCBasica.Controllers
     public class ProdutosController : Controller
     {
         private readonly ApplicationDbContext _context;
+        Random rd = new Random();
+        private List<Fornecedor> list_fornecedores= new List<Fornecedor>();
+
 
         public ProdutosController(ApplicationDbContext context)
         {
             _context = context;
+            list_fornecedores = _context.Fornecedores.ToList();
+
         }
 
         [AllowAnonymous]
@@ -59,13 +65,19 @@ namespace AppMVCBasica.Controllers
         // POST: Produtos/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost] 
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Produto produto)
+        public async Task<IActionResult> Create(Produto produto, int quantidade)
         {
+            ProdutoFaker fake = new ProdutoFaker();
             if (ModelState.IsValid)
             {
-                _context.Add(produto);
+                for (int i = 1; i <= quantidade; i++)
+                {
+                    produto = fake.dataFake();
+                    produto.Fornecedor = fornecedorRandomico();
+                    _context.Add(produto);
+                }
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
@@ -95,7 +107,7 @@ namespace AppMVCBasica.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("FornecedorId,Nome,Descricao,Imagem,Valor,DataCadastro,Ativo,Id")] Produto produto)
+        public async Task<IActionResult> Edit(Guid id, Produto produto)
         {
             if (id != produto.Id)
             {
@@ -159,14 +171,49 @@ namespace AppMVCBasica.Controllers
             {
                 _context.Produtos.Remove(produto);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ProdutoExists(Guid id)
         {
-          return _context.Produtos.Any(e => e.Id == id);
+            return _context.Produtos.Any(e => e.Id == id);
+        }
+        public Task<IActionResult> CreateCem()
+        {
+            Produto p = new Produto();
+            return this.Create(p, 100);
+
+        }
+        public Task<IActionResult> CreateMil()
+        {
+            Produto p = new Produto();
+            return this.Create(p, 1000);
+
+        }
+        public Task<IActionResult> CreateDezMil()
+        {
+            Produto p = new Produto();
+            return this.Create(p, 10000);
+
+        }
+        public Task<IActionResult> CreateCemMil()
+        {
+            Produto p = new Produto();
+            return this.Create(p, 100000);
+
+        }
+        public Task<IActionResult> CreateUmMilhao()
+        {
+            Produto p = new Produto();
+            return this.Create(p, 1000000);
+
+        }
+        public Fornecedor fornecedorRandomico()
+        {
+            int randIndex = rd.Next(list_fornecedores.Count);
+            return list_fornecedores[randIndex];
         }
     }
 }

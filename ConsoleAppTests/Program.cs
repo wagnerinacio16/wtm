@@ -1,4 +1,6 @@
-﻿using AppMVCBasica.Faker;
+﻿using AppMVCBasica.Controllers;
+using AppMVCBasica.Data;
+using AppMVCBasica.Faker;
 using System.Text;
 namespace ConsoleAppTests
 {
@@ -7,14 +9,16 @@ namespace ConsoleAppTests
         static void Main(string[] args)
         {
 
-            ProdutoFaker produto = new ProdutoFaker();
-            EnderecoFaker endereco = new EnderecoFaker();
-            FornecedorFaker fornecedor = new FornecedorFaker();
-            for (int i = 1; i <= 10; i++)
-            {
-                Console.WriteLine(gerarDadosFake(fornecedor.dataFake()));
 
-            }
+            ProdutoFaker produto = new ProdutoFaker();
+            produto.ImprimirLista();
+            //EnderecoFaker endereco = new EnderecoFaker();
+            //FornecedorFaker fornecedor = new FornecedorFaker();
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine(gerarDadosFake(fornecedor.dataFake()));
+
+            //}
         }
 
         static string gerarDadosFake(object objeto)

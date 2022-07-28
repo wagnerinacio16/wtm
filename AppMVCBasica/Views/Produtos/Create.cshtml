@@ -4,12 +4,12 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Novo produto</h1>
 
 <h4>Produto</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-12">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -27,19 +27,12 @@
                 <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Imagem" class="control-label"></label>
-                <input asp-for="Imagem" class="form-control" />
-                <span asp-validation-for="Imagem" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="Valor" class="control-label"></label>
                 <input asp-for="Valor" class="form-control" />
-                <span asp-validation-for="Valor" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="DataCadastro" class="control-label"></label>
                 <input asp-for="DataCadastro" class="form-control" />
-                <span asp-validation-for="DataCadastro" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
@@ -47,14 +40,18 @@
                 </label>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+               <input type="submit" value="Cem Cadastro(s)" class="btn btn-primary" asp-action="CreateCem" />
+                <input type="submit" value="Mil Cadastro(s)" class="btn btn-secondary" asp-action="CreateMil" />
+                <input type="submit" value="Dez mil Cadastro(s)" class="btn btn-success" asp-action="CreateDezMil" />
+                <input type="submit" value="Cem mil Cadastro(s)" class="btn btn-warning" asp-action="CreateCemMil"/>
+                <input type="submit" value="1 milhão de Cadastro(s)" class="btn btn-danger" asp-action="CreateUmMilhao"/>
             </div>
         </form>
     </div>
 </div>
-
+<br />
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a class="btn btn-info" asp-action="Index">Voltar</a>
 </div>
 
 @section Scripts {

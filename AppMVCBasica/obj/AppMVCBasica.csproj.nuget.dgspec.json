@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\AppMVCBasica\\AppMVCBasica.csproj": {}
+    "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\AppMVCBasica\\AppMVCBasica.csproj": {
+    "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\AppMVCBasica\\AppMVCBasica.csproj",
+        "projectUniqueName": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj",
         "projectName": "AppMVCBasica",
-        "projectPath": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\AppMVCBasica\\AppMVCBasica.csproj",
-        "packagesPath": "C:\\Users\\Lydians\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lydians\\Documents\\UNIPAMPA\\Disciplinas\\BDII\\wtm\\AppMVCBasica\\obj\\",
+        "projectPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj",
+        "packagesPath": "C:\\Users\\wagne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lydians\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wagne\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -103,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

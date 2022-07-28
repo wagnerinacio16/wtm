@@ -7,13 +7,10 @@
 <h1>@ViewData["Title"]</h1>
 
 <p>
-    <a class="btn btn-success"  asp-action="Create">Novo Produto</a>
-    <a class="btn btn-success"  asp-action="Create">Cem Produto(s)</a>
-    <a class="btn btn-success"  asp-action="Create">Mil Produto(s)</a>
-    <a class="btn btn-success"  asp-action="Create">Dez mil Produto(s)</a>
+    <a class="btn btn-info"  asp-action="Create">Novo Produto</a>
 </p>
 <table class="table table-hover">
-    <thead class="thead-dark">
+    <thead class="table-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
