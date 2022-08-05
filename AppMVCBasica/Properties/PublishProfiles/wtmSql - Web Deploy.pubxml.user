@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAE6pbwj/ztkm6z71Q0obljQAAAAACAAAAAAAQZgAAAAEAACAAAACIPLEFFH5aVq8EDpzsUACL0cYX5XJm9wEgIax3WJj6aAAAAAAOgAAAAAIAACAAAACzMOUfx3kF2/f9s+5gtqu3yvweT4d3tvIvHfm/ZHd9uYAAAAC3kykxGQFxQAFmBNeL9ibR+HGoPtQ0bL15mfG/u0StzadDbndwifr9PfcWPVNXaCqhmG8ClhOlQeLcC+7rLscXyHJwy788YPCtc6LNpPHOJttB1MFH10f0jBm+V/m/xtOtM75nGVlOKvTM9Fjpyrt/skYtNwlOrM++Dzhl3wUorUAAAABgXXvhEYXbwhE5zc9WOOh8cbhYg1fMJ7l33IUme5OpWxhW4SXvck7W3pcNVjmcyH3LlpvWRkqx19uc5rJMy8NU</EncryptedPassword>
+    <History>True|2022-08-03T17:59:31.9635590Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:sqlwtm.database.windows.net,1433%3bInitial Catalog=wtm_db%3bUser Id=wtm%40sqlwtm%3bPassword=%40Admin123</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

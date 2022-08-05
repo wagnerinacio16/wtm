@@ -34,6 +34,16 @@ namespace AppMVCBasica.Faker
 
             return produtoFaker;
         }
+        public string[] UpdateProduto()
+        {
+            Produto produtoFaker = new Faker<Produto>("pt_BR")
+                .RuleFor(produto => produto.Nome, data => data.Commerce.ProductMaterial())
+                .RuleFor(produto => produto.Descricao, data => data.Commerce.ProductDescription());
+
+            string[] produto = new string[2] { produtoFaker.Nome, produtoFaker.Descricao };
+
+            return produto;
+        }
         public void ImprimirLista()
         {
             ApplicationDbContext context = new ApplicationDbContext();

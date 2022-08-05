@@ -268,12 +268,12 @@ C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\ConsoleAppTests\obj\Deb
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\ConsoleAppTests\obj\Debug\net6.0\ConsoleAppTests.pdb
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\ConsoleAppTests\obj\Debug\net6.0\ConsoleAppTests.genruntimeconfig.cache
 C:\Users\Lydians\Documents\UNIPAMPA\Disciplinas\BDII\wtm\ConsoleAppTests\obj\Debug\net6.0\ref\ConsoleAppTests.dll
-C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\AppMVCBasica.deps.json
-C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\AppMVCBasica.runtimeconfig.json
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\wtm.deps.json
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\wtm.runtimeconfig.json
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\appsettings.json
-C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\AppMVCBasica.staticwebassets.runtime.json
-C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\AppMVCBasica.exe
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\wtm.staticwebassets.runtime.json
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\wtm.exe
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\ConsoleAppTests.exe
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\ConsoleAppTests.deps.json
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\ConsoleAppTests.runtimeconfig.json
@@ -525,8 +525,8 @@ C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleApp
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\AppMVCBasica.dll
-C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\AppMVCBasica.pdb
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\wtm.dll
+C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\bin\Debug\net6.0\wtm.pdb
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\obj\Debug\net6.0\ConsoleAppTests.csproj.AssemblyReference.cache
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\obj\Debug\net6.0\ConsoleAppTests.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\wagne\OneDrive\Documentos\UNIPAMPA\BDII\trabalho_pratico\wtm\ConsoleAppTests\obj\Debug\net6.0\ConsoleAppTests.AssemblyInfoInputs.cache

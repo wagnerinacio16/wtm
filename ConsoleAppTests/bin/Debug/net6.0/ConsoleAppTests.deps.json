@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "ConsoleAppTests/1.0.0": {
         "dependencies": {
-          "AppMVCBasica": "1.0.0",
-          "Bogus.Tools.Analyzer": "34.0.2"
+          "Bogus.Tools.Analyzer": "34.0.2",
+          "wtm": "1.0.0"
         },
         "runtime": {
           "ConsoleAppTests.dll": {}
@@ -2345,7 +2345,7 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "AppMVCBasica/1.0.0": {
+      "wtm/1.0.0": {
         "dependencies": {
           "Bogus": "34.0.2",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.7",
@@ -2356,7 +2356,7 @@
           "Swashbuckle.AspNetCore": "6.3.1"
         },
         "runtime": {
-          "AppMVCBasica.dll": {}
+          "wtm.dll": {}
         }
       }
     }
@@ -3669,7 +3669,7 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "AppMVCBasica/1.0.0": {
+    "wtm/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

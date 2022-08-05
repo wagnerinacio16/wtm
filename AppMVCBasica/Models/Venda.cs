@@ -7,8 +7,10 @@ namespace AppMVCBasica.Models
     {
         [DisplayName("Fornecedor")]
         public Guid FornecedorId { get; set; }
+       
         [DisplayName("Produto")]
         public Guid ProdutoId { get; set; }
+
         public int Quantidade { get; set; }
        
         [DisplayName("Data da Venda")]
@@ -16,6 +18,7 @@ namespace AppMVCBasica.Models
         
         public Fornecedor Fornecedor { get; set; }
         public Produto Produto { get; set; }
+
 
 
     }

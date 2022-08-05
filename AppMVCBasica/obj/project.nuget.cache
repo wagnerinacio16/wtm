@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r92ZHYNsShErLk78G4mKn/26iaI9Ka63tvcIl0dYW751RYe1z+DwK8/sx/oPaU8Lqxd4LRnnoJ3JgAQqYyqaEA==",
+  "dgSpecHash": "wCNtd2HqMcyxhrR3gT9cPgRA8OLJ6BJR8qnDx16+uC6jFx96vDl7J4YWg5t/+cxNyO2o0A+N+iJ3o/J4CkHcDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj",
+  "projectFilePath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\wtm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wagne\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\wagne\\.nuget\\packages\\bogus.tools.analyzer\\34.0.2\\bogus.tools.analyzer.34.0.2.nupkg.sha512",

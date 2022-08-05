@@ -8,10 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "wtm.Tests/1.0.0": {
         "dependencies": {
-          "AppMVCBasica": "1.0.0",
           "Bogus.Tools.Analyzer": "34.0.2",
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "coverlet.collector": "3.1.0",
+          "wtm": "1.0.0",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3"
         },
@@ -2669,7 +2669,7 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
-      "AppMVCBasica/1.0.0": {
+      "wtm/1.0.0": {
         "dependencies": {
           "Bogus": "34.0.2",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.7",
@@ -2680,7 +2680,7 @@
           "Swashbuckle.AspNetCore": "6.3.1"
         },
         "runtime": {
-          "AppMVCBasica.dll": {}
+          "wtm.dll": {}
         }
       }
     }
@@ -4084,7 +4084,7 @@
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
-    "AppMVCBasica/1.0.0": {
+    "wtm/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

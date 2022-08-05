@@ -23,11 +23,7 @@ namespace AppMVCBasica.Models
 
         /*EF Relation*/
         public IEnumerable<Produto> Produtos { get; set; }
-
-        public static implicit operator int(Fornecedor v)
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }
 

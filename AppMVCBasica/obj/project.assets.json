@@ -10121,9 +10121,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj",
-      "projectName": "AppMVCBasica",
-      "projectPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj",
+      "projectUniqueName": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\wtm.csproj",
+      "projectName": "wtm",
+      "projectPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\wtm.csproj",
       "packagesPath": "C:\\Users\\wagne\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\obj\\",
       "projectStyle": "PackageReference",

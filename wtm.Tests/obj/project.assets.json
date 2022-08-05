@@ -3617,7 +3617,7 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "AppMVCBasica/1.0.0": {
+      "wtm/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -3630,10 +3630,10 @@
           "Swashbuckle.AspNetCore": "6.3.1"
         },
         "compile": {
-          "bin/placeholder/AppMVCBasica.dll": {}
+          "bin/placeholder/wtm.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AppMVCBasica.dll": {}
+          "bin/placeholder/wtm.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -11167,18 +11167,18 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "AppMVCBasica/1.0.0": {
+    "wtm/1.0.0": {
       "type": "project",
-      "path": "../AppMVCBasica/AppMVCBasica.csproj",
-      "msbuildProject": "../AppMVCBasica/AppMVCBasica.csproj"
+      "path": "../AppMVCBasica/wtm.csproj",
+      "msbuildProject": "../AppMVCBasica/wtm.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AppMVCBasica >= 1.0.0",
       "Bogus.Tools.Analyzer >= 34.0.2",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "coverlet.collector >= 3.1.0",
+      "wtm >= 1.0.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]
@@ -11215,8 +11215,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj": {
-              "projectPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\AppMVCBasica.csproj"
+            "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\wtm.csproj": {
+              "projectPath": "C:\\Users\\wagne\\OneDrive\\Documentos\\UNIPAMPA\\BDII\\trabalho_pratico\\wtm\\AppMVCBasica\\wtm.csproj"
             }
           }
         }

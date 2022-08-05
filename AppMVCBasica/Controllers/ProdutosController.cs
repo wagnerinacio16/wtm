@@ -9,6 +9,8 @@ using AppMVCBasica.Data;
 using AppMVCBasica.Models;
 using Microsoft.AspNetCore.Authorization;
 using AppMVCBasica.Faker;
+using System.Diagnostics;
+using wtm.Data;
 
 namespace AppMVCBasica.Controllers
 {
@@ -17,11 +19,16 @@ namespace AppMVCBasica.Controllers
     {
         private readonly ApplicationDbContext _context;
         Random rd = new Random();
-        private List<Fornecedor> list_fornecedores= new List<Fornecedor>();
+        private List<Fornecedor> list_fornecedores = new List<Fornecedor>();
+        ProdutoFaker faker = new ProdutoFaker();
+        Stopwatch stopWacth = new Stopwatch();
+        Log desempenho = new Log();
+        Produto tipoObjeto;
 
 
         public ProdutosController(ApplicationDbContext context)
         {
+            tipoObjeto = new Produto();
             _context = context;
             list_fornecedores = _context.Fornecedores.ToList();
 
@@ -65,20 +72,23 @@ namespace AppMVCBasica.Controllers
         // POST: Produtos/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost] 
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Produto produto, int quantidade)
         {
             ProdutoFaker fake = new ProdutoFaker();
             if (ModelState.IsValid)
             {
+                stopWacth.Start();
                 for (int i = 1; i <= quantidade; i++)
                 {
                     produto = fake.dataFake();
                     produto.Fornecedor = fornecedorRandomico();
                     _context.Add(produto);
+                    await Task.Run(() => _context.SaveChangesAsync());
                 }
-                await _context.SaveChangesAsync();
+                stopWacth.Stop();
+                desempenho.GerarLogInsert(produto, stopWacth, quantidade);
                 return RedirectToAction(nameof(Index));
             }
             ViewData["FornecedorId"] = new SelectList(_context.Fornecedores, "Id", "Nome", produto.FornecedorId);
@@ -138,6 +148,46 @@ namespace AppMVCBasica.Controllers
             return View(produto);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditAll()
+        {
+            decimal count = 1;
+            stopWacth.Start();
+            foreach (Produto p in _context.Produtos.ToList())
+            {
+                p.Nome = faker.UpdateProduto().First();
+                p.Valor = count;
+                p.Descricao = faker.UpdateProduto().Last();
+                p.DataCadastro = DateTime.Now;
+
+                if (ModelState.IsValid)
+                {
+                    try
+                    {
+                        _context.Update(p);
+                        await Task.Run(() => _context.SaveChangesAsync());
+                    }
+                    catch (DbUpdateConcurrencyException)
+                    {
+                        if (!ProdutoExists(p.Id))
+                        {
+                            return NotFound();
+                        }
+                        else
+                        {
+                            throw;
+                        }
+                    }
+                }
+                count++;
+            }
+            stopWacth.Stop();
+            desempenho.GerarLogUpdate(tipoObjeto, stopWacth, _context.Produtos.ToList().Count);
+            return RedirectToAction(nameof(Index));
+        }
+
+
         // GET: Produtos/Delete/5
         public async Task<IActionResult> Delete(Guid? id)
         {
@@ -176,6 +226,23 @@ namespace AppMVCBasica.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        //[HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteAll()
+        {
+            int quantidade = _context.Produtos.ToList().Count;
+            stopWacth.Start();
+            foreach (Produto f in _context.Produtos.ToList())
+            {
+                _context.Produtos.Remove(f);
+                await Task.Run(() => _context.SaveChangesAsync());
+
+            }
+            stopWacth.Stop();
+            desempenho.GerarLogDelete(tipoObjeto, stopWacth, quantidade);
+            return RedirectToAction(nameof(Index));
+        }
+
         private bool ProdutoExists(Guid id)
         {
             return _context.Produtos.Any(e => e.Id == id);
@@ -210,10 +277,24 @@ namespace AppMVCBasica.Controllers
             return this.Create(p, 1000000);
 
         }
+
+        public Task<IActionResult> EditarTodos()
+        {
+            return this.EditAll();
+
+        }
+        public Task<IActionResult> ExcluirTodos()
+        {
+            return this.DeleteAll();
+
+        }
+
         public Fornecedor fornecedorRandomico()
         {
             int randIndex = rd.Next(list_fornecedores.Count);
             return list_fornecedores[randIndex];
         }
+
     }
 }
+

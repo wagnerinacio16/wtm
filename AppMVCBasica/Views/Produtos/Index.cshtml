@@ -7,7 +7,9 @@
 <h1>@ViewData["Title"]</h1>
 
 <p>
-    <a class="btn btn-info"  asp-action="Create">Novo Produto</a>
+    <a class="btn btn-info" asp-action="Create">Novo Produto</a>
+    <a class="btn btn-warning" asp-action="EditarTodos">Editar Todos</a>
+    <a class="btn btn-danger" asp-action="ExcluirTodos">Excluir Todos</a>
 </p>
 <table class="table table-hover">
     <thead class="table-dark">
@@ -51,8 +53,8 @@
                     @Html.DisplayFor(modelItem => item.Fornecedor.Nome)
                 </td>
                 <td class="text right">
-                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> 
-                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalhes</a> 
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
                     <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
                 </td>
             </tr>

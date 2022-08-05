@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AppMVCBasica\AppMVCBasica.csproj" />
+    <ProjectReference Include="..\AppMVCBasica\wtm.csproj" />
   </ItemGroup>
 
 </Project>

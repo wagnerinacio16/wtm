@@ -9,6 +9,8 @@ using AppMVCBasica.Data;
 using AppMVCBasica.Models;
 using Microsoft.AspNetCore.Authorization;
 using AppMVCBasica.Faker;
+using System.Diagnostics;
+using wtm.Data;
 
 namespace AppMVCBasica.Controllers
 {
@@ -18,9 +20,13 @@ namespace AppMVCBasica.Controllers
         Random rd = new Random();
         private List<Fornecedor> list_fornecedores = new List<Fornecedor>();
         private List<Produto> list_produtos = new List<Produto>();
+        Stopwatch stopWatch = new Stopwatch();
+        Log desempenho = new Log();
+        Venda tipoObjeto;
 
         public VendasController(ApplicationDbContext context)
         {
+            tipoObjeto = new Venda();
             _context = context;
             list_fornecedores = _context.Fornecedores.ToList();
             list_produtos = _context.Produtos.ToList();
@@ -73,6 +79,7 @@ namespace AppMVCBasica.Controllers
             if (ModelState.IsValid)
             {
                 VendaFaker faker = new VendaFaker();
+                stopWatch.Start();
                 for (int i = 1; i <= quantidade; i++)
                 {
                     venda = faker.dataFake();
@@ -80,8 +87,10 @@ namespace AppMVCBasica.Controllers
                     venda.Produto = produtoRandomico();
                     venda.Id = Guid.NewGuid();
                     _context.Add(venda);
+                    await Task.Run(() => _context.SaveChangesAsync());
                 }
-                await _context.SaveChangesAsync();
+                stopWatch.Stop();
+                desempenho.GerarLogInsert(venda, stopWatch, quantidade);
                 return RedirectToAction(nameof(Index));
             }
             ViewData["FornecedorId"] = new SelectList(_context.Fornecedores, "Id", "Nome", venda.FornecedorId);
@@ -144,6 +153,44 @@ namespace AppMVCBasica.Controllers
             return View(venda);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditAll()
+        {
+            int count = 1;
+            stopWatch.Start();
+            foreach (Venda v in _context.Venda.ToList())
+            {
+
+                v.Quantidade = count;
+                v.DataVenda = DateTime.Now;
+
+                if (ModelState.IsValid)
+                {
+                    try
+                    {
+                        _context.Update(v);
+                        await _context.SaveChangesAsync();
+                    }
+                    catch (DbUpdateConcurrencyException)
+                    {
+                        if (!VendaExists(v.Id))
+                        {
+                            return NotFound();
+                        }
+                        else
+                        {
+                            throw;
+                        }
+                    }
+                    count++;
+                }
+            }
+            stopWatch.Stop();
+            desempenho.GerarLogUpdate(tipoObjeto, stopWatch, _context.Venda.ToList().Count);
+            return RedirectToAction(nameof(Index));
+        }
+
         // GET: Vendas/Delete/5
         public async Task<IActionResult> Delete(Guid? id)
         {
@@ -180,6 +227,22 @@ namespace AppMVCBasica.Controllers
             }
 
             await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteAll()
+        {
+            int quantidade = _context.Venda.ToList().Count;
+            stopWatch.Start();
+            foreach (Venda v in _context.Venda.ToList())
+            {
+                _context.Venda.Remove(v);
+                await _context.SaveChangesAsync();
+            }
+            stopWatch.Stop();
+            desempenho.GerarLogDelete(tipoObjeto, stopWatch, quantidade);
             return RedirectToAction(nameof(Index));
         }
 
@@ -222,6 +285,16 @@ namespace AppMVCBasica.Controllers
             int randIndexFornecedor = rd.Next(list_fornecedores.Count);
             return list_fornecedores[randIndexFornecedor];
 
+        }
+
+        public Task<IActionResult> EditarTodos()
+        {
+            return EditAll();
+        }
+
+        public Task<IActionResult> ExcluirTodos()
+        {
+            return DeleteAll();
         }
         public Produto produtoRandomico()
         {

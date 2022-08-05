@@ -22,6 +22,12 @@ namespace AppMVCBasica.Faker
 
             return vendaFaker;
         }
+
+        //public string[] UpdateVenda()
+        //{
+        //    Venda vendaFake = new FakerVenda("pt_BR")
+        //        .RuleFor(Venda => Venda.)
+        //}
     }
 }
 
