@@ -1,0 +1,5 @@
+Insert de Fornecedor 
+Quantidade: 100
+Tempo da Operação: 00:00:14.6017016
+|-------------------------------|
+

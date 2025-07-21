@@ -1,0 +1,52 @@
+﻿@model AppMVCBasica.Models.Venda
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Cadastrar Venda</h1>
+
+<h4>Venda</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FornecedorId" class="control-label"></label>
+                <select asp-for="FornecedorId" class="form-control" asp-items="ViewBag.FornecedorId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProdutoId" class="control-label"></label>
+                <select asp-for="ProdutoId" class="form-control" asp-items="ViewBag.ProdutoId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantidade" class="control-label"></label>
+                <input asp-for="Quantidade" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="DataVenda" class="control-label"></label>
+                <input asp-for="DataVenda" class="form-control" />
+            </div>
+            <div class="form-group">
+                <br />
+                <input type="submit" value="Cem Cadastro(s)" class="btn btn-primary" asp-action="CreateCem" />
+                <input type="submit" value="Mil Cadastro(s)" class="btn btn-secondary" asp-action="CreateMil" />
+                <input type="submit" value="Dez mil Cadastro(s)" class="btn btn-success" asp-action="CreateDezMil" />
+                <input type="submit" value="Cem mil Cadastro(s)" class="btn btn-warning" asp-action="CreateCemMil" />
+                <input type="submit" value="1 milhão de Cadastro(s)" class="btn btn-danger" asp-action="CreateUmMilhao" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <br />
+    <a class="btn btn-info" asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
