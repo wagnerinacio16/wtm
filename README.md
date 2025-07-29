@@ -23,7 +23,7 @@ As relações principais são:
 
 Abaixo está o diagrama de classes da aplicação, ilustrando o relacionamento entre as entidades:
 
-![Diagrama de Classes](https://raw.githubusercontent.com/wagnerinacio16/wagnerinacio16/wtm/docs/diagrama_de_classe.png)
+![Diagrama de Classes](https://github.com/wagnerinacio16/wtm/blob/main/docs/diagrama_de_classe.png)
 
 
 ## Tecnologias Utilizadas
