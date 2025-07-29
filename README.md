@@ -23,7 +23,7 @@ As relações principais são:
 
 Abaixo está o diagrama de classes da aplicação, ilustrando o relacionamento entre as entidades:
 
-![Diagrama de Classes da aplicação](wtm/docs/diagrama_de_classe.png)
+![Diagrama de Classes](https://raw.githubusercontent.com/wagnerinacio16/wagnerinacio16/wtm/docs/diagrama_de_classe.png)
 
 
 ## Tecnologias Utilizadas
@@ -86,5 +86,3 @@ Os resultados do benchmark são apresentados em tabelas e gráficos, permitindo 
 Projeto desenvolvido para fins acadêmicos na disciplina de Banco de Dados II.
 
 ---
-
-Sinta-se à vontade para contribuir ou sugerir melhorias!
