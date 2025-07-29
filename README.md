@@ -23,7 +23,8 @@ As relações principais são:
 
 Abaixo está o diagrama de classes da aplicação, ilustrando o relacionamento entre as entidades:
 
-![Diagrama de Classes da aplicação](docs/diagrama_classes.png)
+![Diagrama de Classes da aplicação](wtm/docs/diagrama_de_classe.png)
+
 
 ## Tecnologias Utilizadas
 
